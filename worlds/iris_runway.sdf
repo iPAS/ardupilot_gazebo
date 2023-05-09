@@ -52,5 +52,9 @@
       <uri>model://iris_with_ardupilot</uri>
     </include>
 
+    <include>
+      <uri>model://volcano</uri>
+    </include>
+
   </world>
 </sdf>

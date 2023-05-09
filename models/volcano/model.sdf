@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+
+    <model name="volcano">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>media://volcano/files/volcano_129.dem</uri>
+              <size>150 150 50</size>
+              <pos>0 -100 -685</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+
+        <visual name="visual_abcedf">
+          <geometry>
+            <heightmap>
+              <texture>
+                <diffuse>media://materials/textures/dirt_diffusespecular.png</diffuse>
+                <normal>media://materials/textures/flat_normal.png</normal>
+                <size>1</size>
+              </texture>
+              <texture>
+                <diffuse>media://materials/textures/grass_diffusespecular.png</diffuse>
+                <normal>media://materials/textures/flat_normal.png</normal>
+                <size>1</size>
+              </texture>
+              <texture>
+                <diffuse>media://materials/textures/fungus_diffusespecular.png</diffuse>
+                <normal>media://materials/textures/flat_normal.png</normal>
+                <size>1</size>
+              </texture>
+              <blend>
+                <min_height>2</min_height>
+                <fade_dist>5</fade_dist>
+              </blend>
+              <blend>
+                <min_height>4</min_height>
+                <fade_dist>5</fade_dist>
+              </blend>
+              <uri>media://volcano/files/volcano_129.dem</uri>
+              <size>150 150 50</size>
+              <pos>0 -100 -685</pos>
+            </heightmap>
+          </geometry>
+        </visual>
+
+      </link>
+    </model>
+
+</sdf>
