@@ -49,8 +49,8 @@
     </include>
 
     <include>
-      <!-- <uri>model://iris_with_ardupilot</uri> -->
-      <uri>model://iris_with_ardupilot_large</uri>
+      <uri>model://iris_with_ardupilot</uri>
+      <!-- <uri>model://iris_with_ardupilot_large</uri> -->
     </include>
 <!--
     <include>
